@@ -47,3 +47,43 @@
   .me .user {
     padding-right: 10px;
   }
+
+@media (max-width: 768px) {
+  .messages {
+    row-gap: 10px;
+  }
+  
+  .message {
+    width: 80%;
+  }
+  
+  .text {
+    font-size: 14px;
+  }
+  
+  .user {
+    align-items: flex-start;
+  }
+  
+  .user .text {
+    padding: 8px;
+    border-radius: 10px;
+  }
+  
+  .user .user {
+    padding-left: 8px;
+  }
+  
+  .me {
+    align-items: flex-end;
+  }
+  
+  .me .text {
+    padding: 8px;
+    border-radius: 10px;
+  }
+  
+  .me .user {
+    padding-right: 8px;
+  }
+}
