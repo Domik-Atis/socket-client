@@ -51,3 +51,24 @@
     font-weight: 700;
     color: #fff;
   }
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .group {
+    min-width: auto;
+    width: 80%;
+  }
+  
+  .input {
+    text-indent: 10px;
+    font-size: 14px;
+  }
+  
+  .button {
+    font-size: 14px;
+  }
+}
